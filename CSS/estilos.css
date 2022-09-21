@@ -1,0 +1,27 @@
+#menu ul {
+    display: flex;
+	padding: 2em;
+	margin: 0;
+	list-style: none;
+}
+#menu a {
+    display: block;
+    padding: 2em;
+    background-color: #f9b53c;
+    text-decoration: none;
+    color: #191c26;
+}
+#menu a:hover{
+    background-color: #cc673b;
+}
+#menu ul li ul {
+    display: none;
+}
+#menu ul li a:hover + ul, .menu ul li ul:hover {
+    display: block;
+}
+#fondo-menu {
+    background: url("/img/Index.jpg") center;
+    background-size: 120% auto;
+    background-repeat: no-repeat;
+}
